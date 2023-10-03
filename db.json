@@ -1,0 +1,89 @@
+{
+    "suppliers": [
+        {
+            "id": 1,
+            "name": "JFC",
+            "phone": "",
+            "email": "order.syd@ifcaust.com.au",
+            "tel": "9429-8000",
+            "fax": "9429-8010",
+            "delivery_date": [
+                "Monday",
+                "Thursday"
+            ],
+            "delivery_due_time": "23:00",
+            "available_products": [
+                1,
+                2,
+                3,
+                4
+            ]
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Maccha Power",
+            "uom": "each",
+            "category": "Hall",
+            "current_supplier_id": 1,
+            "scheduled_order": {
+                "monday": 0,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 0,
+                "friday": 0,
+                "saturday": 0,
+                "sunday": 0
+            }
+        },
+        {
+            "id": 2,
+            "name": "White Miso",
+            "uom": "ctn",
+            "category": "Kitchen",
+            "current_supplier_id": 1,
+            "scheduled_order": {
+                "monday": 1,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 2,
+                "friday": 0,
+                "saturday": 0,
+                "sunday": 0
+            }
+        },
+        {
+            "id": 3,
+            "name": "Frozen Soba",
+            "uom": "ctn",
+            "category": "Kitchen",
+            "current_supplier_id": 1,
+            "scheduled_order": {
+                "monday": 3,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 0,
+                "friday": 5,
+                "saturday": 0,
+                "sunday": 0
+            }
+        },
+        {
+            "id": 4,
+            "name": "Leg Stick",
+            "uom": "ctn",
+            "catogory": "SushiBar",
+            "current_supplier_id": 1,
+            "scheduled_order": {
+                "monday": 10,
+                "tuesday": 0,
+                "wednesday": 0,
+                "thursday": 12,
+                "friday": 0,
+                "saturday": 0,
+                "sunday": 0
+            }
+        }
+    ]
+}
