@@ -73,7 +73,7 @@
             "id": 4,
             "name": "Leg Stick",
             "uom": "ctn",
-            "catogory": "sushibar",
+            "category": "sushibar",
             "current_supplier_id": 1,
             "scheduled_order": {
                 "monday": 10,
