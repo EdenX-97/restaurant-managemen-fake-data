@@ -25,7 +25,7 @@
             "id": 1,
             "name": "Maccha Power",
             "uom": "each",
-            "category": "Hall",
+            "category": "hall",
             "current_supplier_id": 1,
             "scheduled_order": {
                 "monday": 0,
@@ -41,7 +41,7 @@
             "id": 2,
             "name": "White Miso",
             "uom": "ctn",
-            "category": "Kitchen",
+            "category": "kitchen",
             "current_supplier_id": 1,
             "scheduled_order": {
                 "monday": 1,
@@ -57,7 +57,7 @@
             "id": 3,
             "name": "Frozen Soba",
             "uom": "ctn",
-            "category": "Kitchen",
+            "category": "kitchen",
             "current_supplier_id": 1,
             "scheduled_order": {
                 "monday": 3,
@@ -73,7 +73,7 @@
             "id": 4,
             "name": "Leg Stick",
             "uom": "ctn",
-            "catogory": "SushiBar",
+            "catogory": "sushibar",
             "current_supplier_id": 1,
             "scheduled_order": {
                 "monday": 10,
