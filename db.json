@@ -11,13 +11,20 @@
                 "Monday",
                 "Thursday"
             ],
-            "delivery_due_time": "23:00",
-            "available_products": [
-                1,
-                2,
-                3,
-                4
-            ]
+            "delivery_due_time": "23:00"
+        },
+        {
+            "id": 2,
+            "name": "JFCC",
+            "phone": "0400000000",
+            "email": "order.syd@ifcaust.com.au",
+            "tel": "9429-8000",
+            "fax": "9429-8010",
+            "delivery_date": [
+                "Monday",
+                "Thursday"
+            ],
+            "delivery_due_time": "23:00"
         }
     ],
     "products": [
@@ -26,64 +33,63 @@
             "name": "Maccha Power",
             "uom": "each",
             "category": "hall",
-            "current_supplier_id": 1,
-            "scheduled_order": {
-                "monday": 0,
-                "tuesday": 0,
-                "wednesday": 0,
-                "thursday": 0,
-                "friday": 0,
-                "saturday": 0,
-                "sunday": 0
-            }
+            "available_suppliers": [
+                1,
+                2
+            ]
         },
         {
             "id": 2,
             "name": "White Miso",
             "uom": "ctn",
             "category": "kitchen",
-            "current_supplier_id": 1,
-            "scheduled_order": {
-                "monday": 1,
-                "tuesday": 0,
-                "wednesday": 0,
-                "thursday": 2,
-                "friday": 0,
-                "saturday": 0,
-                "sunday": 0
-            }
+            "available_suppliers": [
+                1
+            ]
         },
         {
             "id": 3,
             "name": "Frozen Soba",
             "uom": "ctn",
             "category": "kitchen",
-            "current_supplier_id": 1,
-            "scheduled_order": {
-                "monday": 3,
-                "tuesday": 0,
-                "wednesday": 0,
-                "thursday": 0,
-                "friday": 5,
-                "saturday": 0,
-                "sunday": 0
-            }
+            "available_suppliers": [
+                1
+            ]
         },
         {
             "id": 4,
             "name": "Leg Stick",
             "uom": "ctn",
             "category": "sushibar",
-            "current_supplier_id": 1,
-            "scheduled_order": {
-                "monday": 10,
-                "tuesday": 0,
-                "wednesday": 0,
-                "thursday": 12,
-                "friday": 0,
-                "saturday": 0,
-                "sunday": 0
-            }
+            "available_suppliers": [
+                1
+            ]
+        }
+    ],
+    "stocks": [
+        {
+            "id": 1,
+            "product_id": 1,
+            "supplier_id": 1,
+            "quantity": 5,
+            "required_quantity": {
+                "Monday": 10,
+                "Tuesday": 0,
+                "Wednesday": 0,
+                "Thursday": 12,
+                "Friday": 0,
+                "Saturday": 0,
+                "Sunday": 0
+            },
+            "last_updated": "2016-01-01"
+        },
+        {
+            "id": 2,
+            "product_id": 2,
+            "supplier_id": 1,
+            "quantity": 5,
+            "required_quantity": 10,
+            "last_updated": "2016-01-01"
         }
     ]
 }
