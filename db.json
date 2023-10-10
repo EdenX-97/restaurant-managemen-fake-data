@@ -108,7 +108,23 @@
             "product_id": 2,
             "supplier_id": 1,
             "category": "kitchen",
-            "quantity": 5,
+            "quantity": 6,
+            "last_updated": "2023-10-10"
+        },
+        {
+            "id": 3,
+            "product_id": 3,
+            "supplier_id": 2,
+            "category": "kitchen",
+            "quantity": 7,
+            "last_updated": "2023-10-10"
+        },
+        {
+            "id": 4,
+            "product_id": 4,
+            "supplier_id": 2,
+            "category": "kitchen",
+            "quantity": 8,
             "last_updated": "2023-10-10"
         }
     ]
