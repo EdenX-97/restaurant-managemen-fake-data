@@ -99,7 +99,12 @@
             "id": 1,
             "product_id": 1,
             "supplier_id": 1,
+            "product_name": "Maccha Power",
+            "supplier_name": "JFC",
+            "uom": "each",
             "category": "hall",
+            "item_id": 47623,
+            "memo": "If no stock, 32555 is fine.",
             "quantity": 5,
             "last_updated": "2023-10-10"
         },
@@ -107,7 +112,12 @@
             "id": 2,
             "product_id": 2,
             "supplier_id": 1,
+            "product_name": "White Miso",
+            "supplier_name": "JFC",
+            "uom": "ctn",
             "category": "kitchen",
+            "item_id": 47222,
+            "memo": "If no stock, 32111 is fine.",
             "quantity": 6,
             "last_updated": "2023-10-10"
         },
@@ -115,7 +125,12 @@
             "id": 3,
             "product_id": 3,
             "supplier_id": 2,
+            "product_name": "Frozen Soba",
+            "supplier_name": "JFCC",
+            "uom": "ctn",
             "category": "kitchen",
+            "item_id": "",
+            "memo": "",
             "quantity": 7,
             "last_updated": "2023-10-10"
         },
@@ -123,9 +138,64 @@
             "id": 4,
             "product_id": 4,
             "supplier_id": 2,
+            "product_name": "Leg Stick",
+            "supplier_name": "JFCC",
+            "uom": "ctn",
             "category": "kitchen",
+            "item_id": "32222",
+            "memo": "",
             "quantity": 8,
             "last_updated": "2023-10-10"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "product_id": 1,
+            "supplier_id": 1,
+            "product_name": "Maccha Power",
+            "supplier_name": "JFC",
+            "uom": "each",
+            "category": "hall",
+            "item_id": 47623,
+            "memo": "If no stock, 32555 is fine.",
+            "order_amount": 2
+        },
+        {
+            "id": 2,
+            "product_id": 2,
+            "supplier_id": 1,
+            "product_name": "White Miso",
+            "supplier_name": "JFC",
+            "uom": "ctn",
+            "category": "kitchen",
+            "item_id": 47222,
+            "memo": "If no stock, 32111 is fine.",
+            "order_amount": 3
+        },
+        {
+            "id": 3,
+            "product_id": 3,
+            "supplier_id": 2,
+            "product_name": "Frozen Soba",
+            "supplier_name": "JFCC",
+            "uom": "ctn",
+            "category": "kitchen",
+            "item_id": "",
+            "memo": "",
+            "order_amount": 4
+        },
+        {
+            "id": 4,
+            "product_id": 4,
+            "supplier_id": 2,
+            "product_name": "Leg Stick",
+            "supplier_name": "JFCC",
+            "uom": "ctn",
+            "category": "kitchen",
+            "item_id": "32222",
+            "memo": "",
+            "order_amount": 5
         }
     ]
 }
