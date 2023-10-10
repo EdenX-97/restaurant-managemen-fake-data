@@ -151,8 +151,7 @@
     "purchases": [
         {
             "id": 1,
-            "product_id": 1,
-            "supplier_id": 1,
+            "stock_id": 1,
             "product_name": "Maccha Power",
             "supplier_name": "JFC",
             "uom": "each",
@@ -163,8 +162,7 @@
         },
         {
             "id": 2,
-            "product_id": 2,
-            "supplier_id": 1,
+            "stock_id": 2,
             "product_name": "White Miso",
             "supplier_name": "JFC",
             "uom": "ctn",
@@ -175,8 +173,7 @@
         },
         {
             "id": 3,
-            "product_id": 3,
-            "supplier_id": 2,
+            "stock_id": 3,
             "product_name": "Frozen Soba",
             "supplier_name": "JFCC",
             "uom": "ctn",
@@ -187,8 +184,7 @@
         },
         {
             "id": 4,
-            "product_id": 4,
-            "supplier_id": 2,
+            "stock_id": 4,
             "product_name": "Leg Stick",
             "supplier_name": "JFCC",
             "uom": "ctn",
