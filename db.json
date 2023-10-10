@@ -36,7 +36,14 @@
             "available_suppliers": [
                 1,
                 2
-            ]
+            ],
+            "monday_required": 0,
+            "tuesday_required": 10,
+            "wednesday_required": 0,
+            "thursday_required": 0,
+            "friday_required": 0,
+            "saturday_required": 10,
+            "sunday_required": 0
         },
         {
             "id": 2,
@@ -45,7 +52,14 @@
             "category": "kitchen",
             "available_suppliers": [
                 1
-            ]
+            ],
+            "monday_required": 0,
+            "tuesday_required": 10,
+            "wednesday_required": 0,
+            "thursday_required": 0,
+            "friday_required": 0,
+            "saturday_required": 10,
+            "sunday_required": 0
         },
         {
             "id": 3,
@@ -54,7 +68,14 @@
             "category": "kitchen",
             "available_suppliers": [
                 1
-            ]
+            ],
+            "monday_required": 0,
+            "tuesday_required": 10,
+            "wednesday_required": 0,
+            "thursday_required": 0,
+            "friday_required": 0,
+            "saturday_required": 10,
+            "sunday_required": 0
         },
         {
             "id": 4,
@@ -63,7 +84,14 @@
             "category": "sushibar",
             "available_suppliers": [
                 1
-            ]
+            ],
+            "monday_required": 0,
+            "tuesday_required": 10,
+            "wednesday_required": 0,
+            "thursday_required": 0,
+            "friday_required": 0,
+            "saturday_required": 10,
+            "sunday_required": 0
         }
     ],
     "stocks": [
@@ -72,16 +100,7 @@
             "product_id": 1,
             "supplier_id": 1,
             "quantity": 5,
-            "required_quantity": {
-                "Monday": 10,
-                "Tuesday": 0,
-                "Wednesday": 0,
-                "Thursday": 12,
-                "Friday": 0,
-                "Saturday": 0,
-                "Sunday": 0
-            },
-            "last_updated": "2016-01-01"
+            "last_updated": "2023-01-01"
         },
         {
             "id": 2,
@@ -89,7 +108,7 @@
             "supplier_id": 1,
             "quantity": 5,
             "required_quantity": 10,
-            "last_updated": "2016-01-01"
+            "last_updated": "2023-01-01"
         }
     ]
 }
