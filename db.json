@@ -101,6 +101,7 @@
             "supplier_id": 1,
             "product_name": "Maccha Power",
             "supplier_name": "JFC",
+            "stock_name": "Maccha Power 1bag/each",
             "uom": "each",
             "category": "hall",
             "item_id": 47623,
@@ -113,6 +114,7 @@
             "product_id": 2,
             "supplier_id": 1,
             "product_name": "White Miso",
+            "stock_name": "White Miso 12bags/ctn",
             "supplier_name": "JFC",
             "uom": "ctn",
             "category": "kitchen",
@@ -126,6 +128,7 @@
             "product_id": 3,
             "supplier_id": 2,
             "product_name": "Frozen Soba",
+            "stock_name": "Frozen Soba 12bags/ctn",
             "supplier_name": "JFCC",
             "uom": "ctn",
             "category": "kitchen",
@@ -139,6 +142,7 @@
             "product_id": 4,
             "supplier_id": 2,
             "product_name": "Leg Stick",
+            "stock_name": "Leg Stick 10kg/ctn",
             "supplier_name": "JFCC",
             "uom": "ctn",
             "category": "kitchen",
@@ -152,10 +156,9 @@
         {
             "id": 1,
             "stock_id": 1,
-            "product_name": "Maccha Power",
+            "stock_name": "Maccha Power 1bag/each",
             "supplier_name": "JFC",
             "uom": "each",
-            "category": "hall",
             "item_id": 47623,
             "memo": "If no stock, 32555 is fine.",
             "order_amount": 2
@@ -163,10 +166,9 @@
         {
             "id": 2,
             "stock_id": 2,
-            "product_name": "White Miso",
+            "stock_name": "White Miso 12bags/ctn",
             "supplier_name": "JFC",
             "uom": "ctn",
-            "category": "kitchen",
             "item_id": 47222,
             "memo": "If no stock, 32111 is fine.",
             "order_amount": 3
@@ -174,10 +176,9 @@
         {
             "id": 3,
             "stock_id": 3,
-            "product_name": "Frozen Soba",
+            "stock_name": "Frozen Soba 12bags/ctn",
             "supplier_name": "JFCC",
             "uom": "ctn",
-            "category": "kitchen",
             "item_id": "",
             "memo": "",
             "order_amount": 4
@@ -185,10 +186,9 @@
         {
             "id": 4,
             "stock_id": 4,
-            "product_name": "Leg Stick",
+            "stock_name": "Leg Stick 10kg/ctn",
             "supplier_name": "JFCC",
             "uom": "ctn",
-            "category": "kitchen",
             "item_id": "32222",
             "memo": "",
             "order_amount": 5
